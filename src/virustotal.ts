@@ -46,7 +46,9 @@ export class VirusTotal {
         headers: {
           ...this.instance.defaults.headers,
           ...fd.getHeaders()
-        }
+        },
+        maxContentLength: Infinity,
+        maxBodyLength: Infinity
       })
       .then(upload => {
         const data = upload.data.data as UploadData;
@@ -73,7 +75,9 @@ export class VirusTotal {
         headers: {
           ...this.instance.defaults.headers,
           ...fd.getHeaders()
-        }
+        },
+        maxContentLength: Infinity,
+        maxBodyLength: Infinity
       })
       .then(upload => {
         const data = upload.data.data as UploadData;
