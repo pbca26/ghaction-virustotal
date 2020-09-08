@@ -1,7 +1,7 @@
 # https://help.github.com/en/articles/metadata-syntax-for-github-actions
-name: 'VirusTotal GitHub Action'
+name: 'VirusTotal GitHub Action (Fork)'
 description: "GitHub Action to upload and scan files with VirusTotal"
-author: 'crazy-max'
+author: 'crazy-max, pbca26'
 branding:
   color: 'red'
   icon: 'activity'
